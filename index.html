@@ -22,14 +22,15 @@
     </script>
 </head>
 <body>
-    <div class="container font-sansPro mx-auto my-auto px-4 py-7">
-        <div class="max-w-md border my-auto p-2 shadow">
-                <img src="src/img/image 1.svg" width="50px" alt="Logo" class="bg-white shadow-md rounded-full p-2 mx-auto" srcset=""> 
-            <h2 class="text-slate-900 text-lg mt-2 text-center">Welcome to <span class="font-bold">Kodinger</span></h2>
-            <p class="text-slate-500 text-xs mt-2 text-center">Before you get started, you must login or register if you don't already have an account.</p>
-            <div class="flex mt-5 justify-center">
-                <button class="text-xs font-semibold tracking-wider text-slate-300 active:text-black active:border-b-blue-400 active:border-b-2">LOGIN</button>
-                <button class="text-xs font-semibold tracking-wider ml-3 text-slate-300 active:text-black active:border-b-blue-400 active:border-b-2">REGISTER</button>
+    <div class="container font-sansPro mx-auto my-auto px-4 py-7 md:my-0 md:p-0">
+        <div class="md:flex md:justify-around">
+        <div class="max-w-md border my-auto mx-auto p-2 shadow md:ml-0 md:border-transparent md:shadow-none md:max-w-sm md:mt-12">
+                <img src="src/img/image 1.svg" width="50px" alt="Logo" class="bg-white shadow-md rounded-full p-2 mx-auto md:ml-0 md:w-16 md:mb-8" srcset=""> 
+            <h2 class="text-slate-900 text-lg mt-2 text-center md:text-start md:text-xl">Welcome to <span class="font-bold">Kodinger</span></h2>
+            <p class="text-slate-500 text-xs mt-2 text-center md:text-start md:text-sm">Before you get started, you must login or register if you don't already have an account.</p>
+            <div class="flex mt-5 justify-center md:justify-start md:mt-7">
+                <button class="text-xs md:text-sm font-semibold tracking-wider text-slate-300 active:text-black active:border-b-blue-400 active:border-b-2">LOGIN</button>
+                <button class="text-xs md:text-sm font-semibold tracking-wider ml-3 text-slate-300 active:text-black active:border-b-blue-400 active:border-b-2">REGISTER</button>
             </div>
             <form action="" class="mt-4">
                 <label for="email">
@@ -47,6 +48,15 @@
             <button class="bg-teal-600 w-full mt-5 mb-5 p-3 rounded-sm text-xs text-white shadow-lg shadow- shadow-teal-500">Sign In</button>
             <p class="text-slate-400 font-semibold text-xs text-center my-3">© Your Company. Design by Nauval</p>
         </div>
+        <div class="md:block hidden w-screen bg-cover h-screen ml-9" style="background-image: url(./src/img/bg1.jpg);">
+            <ul class="flex space-x-7 ml-8 font-medium text-base tracking-wider mt-14 text-slate-200">
+                <li class="active:border-blue-400 active:border-b-2">Home</li>
+                <li class="active:border-blue-400 active:border-b-2">Login</li>
+                <li class="active:border-blue-400 active:border-b-2">About</li>
+                <li class="active:border-blue-400 active:border-b-2">Contact</li>
+            </ul>
+        </div>
+    </div>
     </div>
 </body>
 </html>
